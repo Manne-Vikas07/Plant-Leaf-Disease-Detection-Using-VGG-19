@@ -1,10 +1,11 @@
-**Plant Leaf Disease Detection Using Custom VGG19 CNN**
+Plant Leaf Disease Detection Using Custom VGG19 CNN
+
 This project focuses on detecting multiple plant leaf diseases using a custom-built convolutional neural network (CNN) based on the VGG19 architecture. Unlike existing models that focus on detecting diseases in a single plant leaf or use pre-trained networks, this model was built from scratch for improved versatility and performance.
 
-**Dataset**
+Dataset
 We used the PlantVillage Dataset, which contains leaf images from 14 plant species with 38 different diseases. Each image is standardized to 224x224 pixels.
 
-**Model Overview**
+Model Overview
 Our approach reconstructs the VGG19 architecture without using pre-trained models, allowing for more flexibility and adaptation to the specific dataset. Key changes made to optimize the model include:
 
 Learning Rate: Adjusted from 0.001 to 0.01.
@@ -16,10 +17,12 @@ Multi-Plant Detection: Our model detects diseases across multiple plant species,
 GUI Implementation
 A Tkinter-based GUI was developed, enabling users to drag and drop an image of a plant leaf into the application. The model then identifies and displays the disease on the screen.
 
-**Key Points**
+Key Points
+
 98.51% Accuracy
 Supports 14 Plant Species, 38 Diseases
 Custom VGG19 Architecture
 GUI with Drag-and-Drop Feature.
-**DATASET LINK**:https://www.kaggle.com/datasets/emmarex/plantdisease/data
+
+DATASET LINK:https://www.kaggle.com/datasets/emmarex/plantdisease/data
 Run GUI code in Jupyter Notebook and Model code in Google Colab.
