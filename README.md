@@ -6,7 +6,7 @@ This project focuses on detecting multiple plant leaf diseases using a custom-bu
 
 **Dataset**
 
-We used the PlantVillage Dataset, which contains leaf images from 14 plant species with 38 different diseases. Each image is standardized to 224x224 pixels.
+We used the Plantdisease Dataset, which contains leaf images from 14 plant species with 38 different diseases. Each image is standardized to 224x224 pixels.
 
 DATASET LINK:https://www.kaggle.com/datasets/emmarex/plantdisease/data
 ![Screenshot (5)](https://github.com/user-attachments/assets/4d1c13eb-cf1f-43d4-9787-105395869a9f)
